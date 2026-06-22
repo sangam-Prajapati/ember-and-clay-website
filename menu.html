@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Menu — Ember &amp; Clay</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-row">
+    <a href="index.html" class="brand">Ember <span>&amp;</span> Clay</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="contact.html" class="reserve-btn">Reserve a Table</a>
+    <button class="nav-toggle" aria-expanded="false">Menu</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">The Menu</div>
+    <h1>Forty dishes. No shortcuts.</h1>
+    <p style="max-width: 520px; margin-top: 0.8rem;">Prices in ₹. All dishes cooked to order — please allow extra time during weekend dinner service.</p>
+  </div>
+</section>
+
+<section class="menu-section">
+  <div class="container" style="max-width: 760px;">
+
+    <h3 class="menu-cat">Starters &amp; Tandoor</h3>
+
+    <div class="menu-item reveal">
+      <div class="info"><h4>Tandoori Murgh <span class="tag">Bestseller</span></h4><p>Half chicken marinated overnight in yoghurt and Kashmiri chilli, finished in the clay oven.</p></div>
+      <div class="price">₹420</div>
+    </div>
+    <div class="menu-item reveal">
+      <div class="info"><h4>Paneer Tikka <span class="tag">Veg</span></h4><p>Cottage cheese, bell pepper, and onion skewered and smoked over mango wood.</p></div>
+      <div class="price">₹320</div>
+    </div>
+    <div class="menu-item reveal">
+      <div class="info"><h4>Seekh Kebab</h4><p>Hand-minced mutton with green chilli and roasted spices, grilled on iron skewers.</p></div>
+      <div class="price">₹380</div>
+    </div>
+    <div class="menu-item reveal">
+      <div class="info"><h4>Tandoori Prawns</h4><p>Jumbo prawns marinated in carom and mustard oil, char-grilled to order.</p></div>
+      <div class="price">₹460</div>
+    </div>
+
+    <h3 class="menu-cat">Curries &amp; Mains</h3>
+
+    <div class="menu-item reveal">
+      <div class="info"><h4>Mutton Rogan Josh <span class="tag">Bestseller</span></h4><p>Slow-cooked in a copper pot for four hours with Kashmiri chilli and fennel.</p></div>
+      <div class="price">₹480</div>
+    </div>
+    <div class="menu-item reveal">
+      <div class="info"><h4>Butter Chicken</h4><p>Tandoori chicken simmered in a tomato-cashew gravy, finished with cream.</p></div>
+      <div class="price">₹420</div>
+    </div>
+    <div class="menu-item reveal">
+      <div class="info"><h4>Dal Makhani <span class="tag">Veg</span></h4><p>Black lentils simmered overnight on low flame with butter and cream.</p></div>
+      <div class="price">₹280</div>
+    </div>
+    <div class="menu-item reveal">
+      <div class="info"><h4>Paneer Lababdar <span class="tag">Veg</span></h4><p>Cottage cheese in a rich onion-tomato gravy with a hint of fenugreek.</p></div>
+      <div class="price">₹340</div>
+    </div>
+    <div class="menu-item reveal">
+      <div class="info"><h4>Goan Fish Curry</h4><p>River fish simmered in a coconut and kokum curry, served with steamed rice.</p></div>
+      <div class="price">₹440</div>
+    </div>
+
+    <h3 class="menu-cat">Breads &amp; Rice</h3>
+
+    <div class="menu-item reveal">
+      <div class="info"><h4>Tandoori Roti <span class="tag">Veg</span></h4><p>Whole wheat bread, kneaded fresh and pressed to order.</p></div>
+      <div class="price">₹50</div>
+    </div>
+    <div class="menu-item reveal">
+      <div class="info"><h4>Butter Garlic Naan <span class="tag">Veg</span></h4><p>Leavened bread topped with garlic and butter, baked in the clay oven.</p></div>
+      <div class="price">₹80</div>
+    </div>
+    <div class="menu-item reveal">
+      <div class="info"><h4>Hyderabadi Mutton Biryani</h4><p>Layered basmati rice and mutton, slow-cooked under a sealed dough lid.</p></div>
+      <div class="price">₹460</div>
+    </div>
+
+    <h3 class="menu-cat">Desserts</h3>
+
+    <div class="menu-item reveal">
+      <div class="info"><h4>Gulab Jamun <span class="tag">Veg</span></h4><p>Milk dumplings soaked in rose and cardamom syrup, served warm.</p></div>
+      <div class="price">₹150</div>
+    </div>
+    <div class="menu-item reveal">
+      <div class="info"><h4>Kulfi Falooda <span class="tag">Veg</span></h4><p>Saffron-pistachio kulfi layered with vermicelli and rose syrup.</p></div>
+      <div class="price">₹180</div>
+    </div>
+
+  </div>
+</section>
+
+<section style="background: var(--surface); text-align:center;">
+  <div class="container reveal">
+    <h2>Ready to taste it for yourself?</h2>
+    <div class="cta-row" style="justify-content:center; margin-top:1.5rem;">
+      <a href="contact.html" class="btn-primary">Reserve a Table</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="font-size:1.3rem;">Ember <span>&amp;</span> Clay</div>
+        <p style="margin-top:1rem; max-width: 320px;">A wood-fired Indian kitchen serving tandoor classics and slow-cooked curries since 2014.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>14 Mall Road, Civil Lines</li>
+          <li>Kanpur, Uttar Pradesh</li>
+          <li>Open Daily, 12pm – 11pm</li>
+          <li>+91 98765 43210</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Ember &amp; Clay. Crafted by Sangam Prajapati.</span>
+      <span>Dummy demo website — for portfolio/practice use.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact &amp; Reservations — Ember &amp; Clay</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-row">
+    <a href="index.html" class="brand">Ember <span>&amp;</span> Clay</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="contact.html" class="reserve-btn">Reserve a Table</a>
+    <button class="nav-toggle" aria-expanded="false">Menu</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Get in Touch</div>
+    <h1>Reserve a table or send us a message</h1>
+  </div>
+</section>
+
+<section>
+  <div class="container contact-grid">
+    <div class="reveal">
+      <div class="ember-divider"><span class="dot"></span><span class="rule"></span></div>
+      <div class="eyebrow">Visit Us</div>
+      <h2>14 Mall Road, Civil Lines</h2>
+      <ul class="info-list">
+        <li><span class="ic">📍</span> Mall Road, Civil Lines, Kanpur, Uttar Pradesh 208001</li>
+        <li><span class="ic">🕐</span> Open Daily — 12:00 pm to 11:00 pm</li>
+        <li><span class="ic">📞</span> +91 98765 43210</li>
+        <li><span class="ic">✉️</span> hello@emberandclay.example</li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=700&q=80&auto=format&fit=crop" alt="Restaurant dining area with warm ambient lighting" style="border-radius:6px; margin-top:1.5rem;" />
+    </div>
+
+    <div class="reveal">
+      <div class="ember-divider"><span class="dot"></span><span class="rule"></span></div>
+      <div class="eyebrow">Send a Message</div>
+      <h2>Reservations &amp; enquiries</h2>
+      <form id="contact-form">
+        <div class="form-field">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your name" />
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com" />
+        </div>
+        <div class="form-field">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+91 00000 00000" />
+        </div>
+        <div class="form-field">
+          <label for="guests">Party Size</label>
+          <input type="number" id="guests" name="guests" min="1" placeholder="Number of guests" />
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Preferred date, time, or anything else we should know"></textarea>
+        </div>
+        <button type="submit" class="btn-primary" style="border:none; cursor:pointer;">Send Request</button>
+        <p class="form-note">This is a demo form — no message is actually sent or stored.</p>
+        <div class="form-success" id="form-success">Thanks — your request has been noted. We'll be in touch shortly. (Demo only — no real submission occurred.)</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section style="background: var(--surface);">
+  <div class="container reveal" style="text-align:center;">
+    <div class="eyebrow">Find Us</div>
+    <h2 style="margin-top:0.5rem; margin-bottom:1.5rem;">On Mall Road, next to Civil Lines metro station</h2>
+    <div style="border-radius:6px; overflow:hidden; border:1px solid var(--line);">
+      <iframe
+        title="Map location of Ember & Clay restaurant"
+        src="https://www.google.com/maps?q=Civil+Lines,Kanpur&output=embed"
+        width="100%" height="360" style="border:0; display:block;"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="font-size:1.3rem;">Ember <span>&amp;</span> Clay</div>
+        <p style="margin-top:1rem; max-width: 320px;">A wood-fired Indian kitchen serving tandoor classics and slow-cooked curries since 2014.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>14 Mall Road, Civil Lines</li>
+          <li>Kanpur, Uttar Pradesh</li>
+          <li>Open Daily, 12pm – 11pm</li>
+          <li>+91 98765 43210</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Ember &amp; Clay. Crafted by Sangam Prajapati.</span>
+      <span>Dummy demo website — for portfolio/practice use.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
