@@ -1,26 +1,25 @@
-# Ember & Clay — Restaurant Demo Website
+# Ember & Clay — Restaurant Website Demo
 
-A dummy, fully responsive multi-page restaurant website built with plain HTML, CSS, and JavaScript (no frameworks, no build step).
+A responsive, multi-page restaurant website concept built with plain HTML, CSS, and JavaScript. No build step or package installation is required to preview the static pages.
+
+**[View the live website](https://sangam-prajapati.github.io/ember-and-clay-website/)**
 
 ## Pages
-- `index.html` — Home
-- `about.html` — About Us
-- `menu.html` — Menu
-- `reviews.html` — Reviews
-- `contact.html` — Contact & Reservation form (demo only, doesn't send real data)
 
-## Tech
-- Plain HTML/CSS/JS — works by just opening the files in a browser, no installation needed
-- Google Fonts (Fraunces + Inter)
-- Images sourced from Unsplash (free-to-use stock photos)
+- `index.html` — home page
+- `about.html` — about the restaurant
+- `menu.html` — sample menu
+- `reviews.html` — sample customer reviews
+- `contact.html` — contact and reservation-form demo
+
+The contact form is for demonstration only; it does not send or store reservations.
 
 ## Run locally
-Just open `index.html` in your browser. No server or build tools required.
 
-## Deploy with GitHub Pages
-1. Push this folder to a GitHub repository
-2. Go to Settings → Pages → Source → select `main` branch → `/ (root)` → Save
-3. Your site will be live at `https://yourusername.github.io/your-repo-name/`
+Open `index.html` in a browser, or serve the project directory with any static file server. No build tools are needed.
 
-## Credits
-Built by Sangam Prajapati, 2026. This is a demo/portfolio project — the restaurant, menu, and reviews are fictional.
+## Built with
+
+HTML · CSS · JavaScript
+
+The design uses the Fraunces and Inter typefaces and includes stock photography. This is a fictional restaurant concept, not a live restaurant or booking service.
